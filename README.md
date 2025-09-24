@@ -4,7 +4,7 @@ Este repositório foi criado com o objetivo de armazenar soluções para problem
 
 ## Sobre o Repositório
 - Cada pasta representa a solução de um problema específico do LeetCode.
-- As soluções são implementadas utilizando a linguagem **C#** e o framework **.NET 9**.
+- As soluções são implementadas utilizando a linguagem **C#** e **.NET 9**.
 - O foco é praticar, aprender e compartilhar abordagens para diferentes desafios encontrados na plataforma.
 
 ## Como Utilizar
