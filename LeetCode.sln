@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KidsWithGreatestNumbesCandi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanPlaceFlowers_605", "CanPlaceFlowers_605\CanPlaceFlowers_605.csproj", "{71F9AF80-1936-4385-B9C0-F915AF0F5A90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseVowelsString_345", "ReverseVowelsString_345\ReverseVowelsString_345.csproj", "{2BAAD494-54EC-43AA-9632-AB1AAAD446ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{71F9AF80-1936-4385-B9C0-F915AF0F5A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71F9AF80-1936-4385-B9C0-F915AF0F5A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71F9AF80-1936-4385-B9C0-F915AF0F5A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BAAD494-54EC-43AA-9632-AB1AAAD446ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BAAD494-54EC-43AA-9632-AB1AAAD446ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BAAD494-54EC-43AA-9632-AB1AAAD446ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BAAD494-54EC-43AA-9632-AB1AAAD446ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
