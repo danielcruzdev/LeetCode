@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWordsString_151", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductArrayExceptSelf_238", "ProductArrayExceptSelf_238\ProductArrayExceptSelf_238.csproj", "{A9B32103-E978-4865-906D-E9827C7DDF8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCompression_443", "StringCompression_443\StringCompression_443.csproj", "{ED3F2C36-3932-4B04-A089-C8DAD36FA78E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
