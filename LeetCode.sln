@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCompression_443", "St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveZeroes_283", "MoveZeroes_283\MoveZeroes_283.csproj", "{91CF9541-99E1-41C1-999F-11D8C9922079}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncreasingTripletSubsequence_334", "IncreasingTripletSubsequence_334\IncreasingTripletSubsequence_334.csproj", "{96A44083-8C95-4995-8034-F1EB122568C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{91CF9541-99E1-41C1-999F-11D8C9922079}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91CF9541-99E1-41C1-999F-11D8C9922079}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91CF9541-99E1-41C1-999F-11D8C9922079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A44083-8C95-4995-8034-F1EB122568C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A44083-8C95-4995-8034-F1EB122568C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A44083-8C95-4995-8034-F1EB122568C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A44083-8C95-4995-8034-F1EB122568C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
