@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumAverageSubarray_643"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainerWithMostWater_11", "ContainerWithMostWater_11\ContainerWithMostWater_11.csproj", "{7D97DE70-20F7-44A7-9F4B-3D38EF192F60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxNumberKSumPairs_1679", "MaxNumberKSumPairs_1679\MaxNumberKSumPairs_1679.csproj", "{6E0CB30F-2541-40D3-B4D0-83C7F391B587}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{7D97DE70-20F7-44A7-9F4B-3D38EF192F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D97DE70-20F7-44A7-9F4B-3D38EF192F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D97DE70-20F7-44A7-9F4B-3D38EF192F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0CB30F-2541-40D3-B4D0-83C7F391B587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0CB30F-2541-40D3-B4D0-83C7F391B587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0CB30F-2541-40D3-B4D0-83C7F391B587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0CB30F-2541-40D3-B4D0-83C7F391B587}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
