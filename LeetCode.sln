@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncreasingTripletSubsequenc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsSubsequence_392", "IsSubsequence_392\IsSubsequence_392.csproj", "{364DB193-F9C1-4A90-8279-241D3F982F97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumAverageSubarray_643", "MaximumAverageSubarray_643\MaximumAverageSubarray_643.csproj", "{C37AB823-28A9-40AE-B8E9-EF673BB3AAD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainerWithMostWater_11", "ContainerWithMostWater_11\ContainerWithMostWater_11.csproj", "{7D97DE70-20F7-44A7-9F4B-3D38EF192F60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{364DB193-F9C1-4A90-8279-241D3F982F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{364DB193-F9C1-4A90-8279-241D3F982F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{364DB193-F9C1-4A90-8279-241D3F982F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C37AB823-28A9-40AE-B8E9-EF673BB3AAD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C37AB823-28A9-40AE-B8E9-EF673BB3AAD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C37AB823-28A9-40AE-B8E9-EF673BB3AAD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C37AB823-28A9-40AE-B8E9-EF673BB3AAD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D97DE70-20F7-44A7-9F4B-3D38EF192F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D97DE70-20F7-44A7-9F4B-3D38EF192F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D97DE70-20F7-44A7-9F4B-3D38EF192F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D97DE70-20F7-44A7-9F4B-3D38EF192F60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
