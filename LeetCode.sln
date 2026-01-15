@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainerWithMostWater_11",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxNumberKSumPairs_1679", "MaxNumberKSumPairs_1679\MaxNumberKSumPairs_1679.csproj", "{6E0CB30F-2541-40D3-B4D0-83C7F391B587}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumNumberVowelsSubstringGivenLength_1456", "MaximumNumberVowelsSubstringGivenLength_1456\MaximumNumberVowelsSubstringGivenLength_1456.csproj", "{C38D3B1F-7D6A-4988-A0D5-99A6B968C225}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{6E0CB30F-2541-40D3-B4D0-83C7F391B587}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E0CB30F-2541-40D3-B4D0-83C7F391B587}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E0CB30F-2541-40D3-B4D0-83C7F391B587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38D3B1F-7D6A-4988-A0D5-99A6B968C225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38D3B1F-7D6A-4988-A0D5-99A6B968C225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38D3B1F-7D6A-4988-A0D5-99A6B968C225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38D3B1F-7D6A-4988-A0D5-99A6B968C225}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
