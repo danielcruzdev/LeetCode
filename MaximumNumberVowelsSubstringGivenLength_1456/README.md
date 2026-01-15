@@ -54,3 +54,60 @@ Para resolver este problema de forma eficiente, podemos usar a técnica de **jan
     *   O valor máximo que armazenamos durante o processo é a resposta final.
 
 Essa abordagem é muito eficiente porque só percorremos a string uma vez, e para cada caractere, fazemos um número constante de operações. Isso nos dá uma complexidade de tempo de O(n), onde n é o comprimento da string.
+
+## Otimizações de Performance
+
+Embora a solução com Janela Deslizante já seja O(n) - a melhor complexidade possível -, podemos aplicar otimizações práticas para melhorar a performance real:
+
+### 1. **Método IsVowel Inline (Mais Rápido)**
+Em vez de usar um `HashSet` para verificar vogais, usamos comparações diretas:
+```csharp
+private static bool IsVowel(char c)
+{
+    return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
+}
+```
+**Por quê é mais rápido?**
+- HashSet tem overhead de busca e hash calculation
+- Comparações diretas são operações de CPU extremamente rápidas
+- Com apenas 5 vogais, comparações são mais eficientes que estrutura de dados
+
+### 2. **Early Termination (Retorno Antecipado)**
+Se encontrarmos uma janela com `k` vogais, já sabemos que esse é o máximo possível:
+```csharp
+if (maxCount == k)
+    return k;
+```
+**Benefício:** Em casos favoráveis, evitamos processar o resto da string.
+
+### 3. **HashSet Estático (Se Preferir HashSet)**
+Se você prefere usar HashSet, declare-o como `static readonly`:
+```csharp
+private static readonly HashSet<char> Vowels = new HashSet<char> {'a', 'e', 'i', 'o', 'u'};
+```
+**Benefício:** Evita criar um novo HashSet a cada chamada do método, economizando memória e tempo de alocação.
+
+### 4. **Substituir Math.Max por Comparação Direta**
+```csharp
+if (currentCount > maxCount)
+    maxCount = currentCount;
+```
+**Benefício:** Evita a chamada de método Math.Max, reduzindo overhead.
+
+### Comparação de Performance
+
+| Abordagem | Complexidade | Performance Prática |
+|-----------|--------------|---------------------|
+| Força Bruta (todas substrings) | O(n × k) | Muito lenta para strings grandes |
+| Sliding Window + HashSet | O(n) | Boa |
+| Sliding Window + HashSet estático | O(n) | Melhor (evita alocação) |
+| Sliding Window + IsVowel inline | O(n) | **Melhor** (menos overhead) |
+| Sliding Window + IsVowel + Early termination | O(n) no pior caso, O(k) no melhor | **Ótima** |
+
+### Conclusão
+A solução otimizada mantém a complexidade O(n), mas com constantes menores, resultando em melhor performance prática, especialmente para:
+- Strings muito grandes (até 10⁵ caracteres)
+- Múltiplas chamadas do método
+- Ambientes com restrições de memória
+
+

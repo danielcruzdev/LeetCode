@@ -4,31 +4,43 @@ public class Solution
 {
     public int MaxVowels(string s, int k)
     {
-        var vowels = new HashSet<char> {'a', 'e', 'i', 'o', 'u'};
-
         var currentCount = 0;
-        var maxCount = 0;
-
+        
         for (var i = 0; i < k; i++)
         {
-            if (vowels.Contains(s[i]))
+            if (IsVowel(s[i]))
                 currentCount++;
         }
 
-        maxCount = currentCount;
-
+        var maxCount = currentCount;
+        
+        if (maxCount == k)
+            return k;
+        
         for (var i = k; i < s.Length; i++)
         {
-            if (vowels.Contains(s[i]))
+            if (IsVowel(s[i]))
                 currentCount++;
 
-            if (vowels.Contains(s[i - k]))
+            if (IsVowel(s[i - k]))
                 currentCount--;
 
-            maxCount = Math.Max(maxCount, currentCount);
+            if (currentCount > maxCount)
+            {
+                maxCount = currentCount;
+                
+                if (maxCount == k)
+                    return k;
+            }
         }
 
         return maxCount;
+    }
+    
+    [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+    private static bool IsVowel(char c)
+    {
+        return c is 'a' or 'e' or 'i' or 'o' or 'u';
     }
 }
 
