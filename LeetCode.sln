@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxConsecutiveOnes_1004", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubarrayDeletingOneElement_1493", "LongestSubarrayDeletingOneElement_1493\LongestSubarrayDeletingOneElement_1493.csproj", "{BE8ABFAD-C2D2-4E10-B636-C741FB6AD48B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcatenationArray_Q1", "ConcatenationArray_Q1\ConcatenationArray_Q1.csproj", "{5352D2FB-9E36-42E0-8144-B5BC89183292}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{BE8ABFAD-C2D2-4E10-B636-C741FB6AD48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE8ABFAD-C2D2-4E10-B636-C741FB6AD48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE8ABFAD-C2D2-4E10-B636-C741FB6AD48B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5352D2FB-9E36-42E0-8144-B5BC89183292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5352D2FB-9E36-42E0-8144-B5BC89183292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5352D2FB-9E36-42E0-8144-B5BC89183292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5352D2FB-9E36-42E0-8144-B5BC89183292}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
