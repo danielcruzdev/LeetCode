@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuffleArray_Q2", "ShuffleA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxConsecutiveOnes_Q3", "MaxConsecutiveOnes_Q3\MaxConsecutiveOnes_Q3.csproj", "{3949F392-258B-4C4B-ADA5-D1232CA13B8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindDifferenceTwoArrays_2215", "FindDifferenceTwoArrays_2215\FindDifferenceTwoArrays_2215.csproj", "{8B1F8E36-04C7-469D-8417-C434669D302F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{3949F392-258B-4C4B-ADA5-D1232CA13B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3949F392-258B-4C4B-ADA5-D1232CA13B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3949F392-258B-4C4B-ADA5-D1232CA13B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B1F8E36-04C7-469D-8417-C434669D302F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1F8E36-04C7-469D-8417-C434669D302F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1F8E36-04C7-469D-8417-C434669D302F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1F8E36-04C7-469D-8417-C434669D302F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
