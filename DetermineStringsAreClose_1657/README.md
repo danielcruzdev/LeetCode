@@ -91,6 +91,29 @@ word1 = "cabbba" → counts1: a=2, b=3, c=1
 word2 = "abbccc" → counts2: a=1, b=2, c=3
 ```
 
+> **O que significa `c - 'a'`?**
+>
+> Em C#, cada caractere possui um valor numérico definido pela tabela ASCII. As letras minúsculas são sequenciais nessa tabela:
+>
+> | Letra | Valor ASCII |
+> |-------|-------------|
+> | `'a'` | 97          |
+> | `'b'` | 98          |
+> | `'c'` | 99          |
+> | ...   | ...         |
+> | `'z'` | 122         |
+>
+> Ao subtrair `'a'` (97) do caractere atual, obtemos um índice de **0 a 25**, que representa a posição da letra no array:
+>
+> ```
+> 'a' - 'a' = 0  → posição 0
+> 'b' - 'a' = 1  → posição 1
+> 'c' - 'a' = 2  → posição 2
+> 'z' - 'a' = 25 → posição 25
+> ```
+>
+> Isso permite usar um array de tamanho fixo 26 como um mapa de frequências, sem precisar de um dicionário.
+
 **3. Verificar se as duas strings usam as mesmas letras**
 
 Percorre os 26 índices e verifica se, para cada letra, ela aparece nas **duas** strings ou em **nenhuma**. Se uma letra existe só em uma das strings, retorna `false`.
