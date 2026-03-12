@@ -57,6 +57,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OfferExpeditionCampaign2026
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LRUCache_Q1", "LRUCache_Q1\LRUCache_Q1.csproj", "{AA5E2834-DF20-4548-980D-97D951070B13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeIntervals_Q2", "MergeIntervals_Q2\MergeIntervals_Q2.csproj", "{508D429C-9621-4E76-A2A1-51D71FA0FE27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
