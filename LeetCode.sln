@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueNumberOccurrences_120
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetermineStringsAreClose_1657", "DetermineStringsAreClose_1657\DetermineStringsAreClose_1657.csproj", "{13FEE4A5-7619-4518-B978-8CCC7FF44741}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OfferExpeditionCampaign2026", "OfferExpeditionCampaign2026", "{54C14443-B782-437E-9FEE-D799B987763B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LRUCache_Q1", "LRUCache_Q1\LRUCache_Q1.csproj", "{AA5E2834-DF20-4548-980D-97D951070B13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,11 +163,23 @@ Global
 		{13FEE4A5-7619-4518-B978-8CCC7FF44741}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13FEE4A5-7619-4518-B978-8CCC7FF44741}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13FEE4A5-7619-4518-B978-8CCC7FF44741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5E2834-DF20-4548-980D-97D951070B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5E2834-DF20-4548-980D-97D951070B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5E2834-DF20-4548-980D-97D951070B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5E2834-DF20-4548-980D-97D951070B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508D429C-9621-4E76-A2A1-51D71FA0FE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508D429C-9621-4E76-A2A1-51D71FA0FE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508D429C-9621-4E76-A2A1-51D71FA0FE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508D429C-9621-4E76-A2A1-51D71FA0FE27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6F9438A-1508-4FCC-B7F5-726514CC895E}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA5E2834-DF20-4548-980D-97D951070B13} = {54C14443-B782-437E-9FEE-D799B987763B}
+		{508D429C-9621-4E76-A2A1-51D71FA0FE27} = {54C14443-B782-437E-9FEE-D799B987763B}
 	EndGlobalSection
 EndGlobal
