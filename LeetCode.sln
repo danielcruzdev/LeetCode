@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LRUCache_Q1", "LRUCache_Q1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeIntervals_Q2", "MergeIntervals_Q2\MergeIntervals_Q2.csproj", "{508D429C-9621-4E76-A2A1-51D71FA0FE27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualRowColumnPairs_2352", "EqualRowColumnPairs_2352\EqualRowColumnPairs_2352.csproj", "{B73131DC-BFED-4D3E-9210-DA2BEC6D4552}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -173,6 +175,10 @@ Global
 		{508D429C-9621-4E76-A2A1-51D71FA0FE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{508D429C-9621-4E76-A2A1-51D71FA0FE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{508D429C-9621-4E76-A2A1-51D71FA0FE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73131DC-BFED-4D3E-9210-DA2BEC6D4552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73131DC-BFED-4D3E-9210-DA2BEC6D4552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73131DC-BFED-4D3E-9210-DA2BEC6D4552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73131DC-BFED-4D3E-9210-DA2BEC6D4552}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
