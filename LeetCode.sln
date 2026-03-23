@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualRowColumnPairs_2352", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemovingStarsFromString_2390", "RemovingStarsFromString_2390\RemovingStarsFromString_2390.csproj", "{1B9B530D-A074-45D7-BC21-21995BB5C9D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsteroidCollision_735", "AsteroidCollision_735\AsteroidCollision_735.csproj", "{00F234F1-8B2D-4CCD-9EB5-4A46B9D66788}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -185,6 +187,10 @@ Global
 		{1B9B530D-A074-45D7-BC21-21995BB5C9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B9B530D-A074-45D7-BC21-21995BB5C9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B9B530D-A074-45D7-BC21-21995BB5C9D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F234F1-8B2D-4CCD-9EB5-4A46B9D66788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F234F1-8B2D-4CCD-9EB5-4A46B9D66788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F234F1-8B2D-4CCD-9EB5-4A46B9D66788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F234F1-8B2D-4CCD-9EB5-4A46B9D66788}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
