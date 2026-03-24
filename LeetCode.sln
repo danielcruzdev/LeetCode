@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemovingStarsFromString_239
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsteroidCollision_735", "AsteroidCollision_735\AsteroidCollision_735.csproj", "{00F234F1-8B2D-4CCD-9EB5-4A46B9D66788}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecodeString_394", "DecodeString_394\DecodeString_394.csproj", "{81DE2613-8077-4B2A-8E2E-A0D848F4B081}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -191,6 +193,10 @@ Global
 		{00F234F1-8B2D-4CCD-9EB5-4A46B9D66788}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00F234F1-8B2D-4CCD-9EB5-4A46B9D66788}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00F234F1-8B2D-4CCD-9EB5-4A46B9D66788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DE2613-8077-4B2A-8E2E-A0D848F4B081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DE2613-8077-4B2A-8E2E-A0D848F4B081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DE2613-8077-4B2A-8E2E-A0D848F4B081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DE2613-8077-4B2A-8E2E-A0D848F4B081}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
