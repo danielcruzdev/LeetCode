@@ -1,4 +1,8 @@
-﻿namespace DecodeString_394;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace DecodeString_394;
 
 class Program
 {
