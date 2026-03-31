@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsteroidCollision_735", "As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecodeString_394", "DecodeString_394\DecodeString_394.csproj", "{81DE2613-8077-4B2A-8E2E-A0D848F4B081}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberRecentCalls_933", "NumberRecentCalls_933\NumberRecentCalls_933.csproj", "{D83A4558-740D-4FD1-98BF-355A3B537787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -197,6 +199,10 @@ Global
 		{81DE2613-8077-4B2A-8E2E-A0D848F4B081}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81DE2613-8077-4B2A-8E2E-A0D848F4B081}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81DE2613-8077-4B2A-8E2E-A0D848F4B081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83A4558-740D-4FD1-98BF-355A3B537787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83A4558-740D-4FD1-98BF-355A3B537787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83A4558-740D-4FD1-98BF-355A3B537787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83A4558-740D-4FD1-98BF-355A3B537787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
