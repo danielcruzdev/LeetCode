@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseLinkedList_206", "Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum_1", "TwoSum_1\TwoSum_1.csproj", "{3D4ADBF5-24FC-4042-88A9-5215D10B7680}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumLengthSubstringWithTwoOccurrences_3090", "MaximumLengthSubstringWithTwoOccurrences_3090\MaximumLengthSubstringWithTwoOccurrences_3090.csproj", "{348EAB1E-80A8-4835-A31F-39CCB65A1B6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -215,6 +217,10 @@ Global
 		{3D4ADBF5-24FC-4042-88A9-5215D10B7680}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D4ADBF5-24FC-4042-88A9-5215D10B7680}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D4ADBF5-24FC-4042-88A9-5215D10B7680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348EAB1E-80A8-4835-A31F-39CCB65A1B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348EAB1E-80A8-4835-A31F-39CCB65A1B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348EAB1E-80A8-4835-A31F-39CCB65A1B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348EAB1E-80A8-4835-A31F-39CCB65A1B6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
