@@ -75,6 +75,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum_1", "TwoSum_1\TwoSum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumLengthSubstringWithTwoOccurrences_3090", "MaximumLengthSubstringWithTwoOccurrences_3090\MaximumLengthSubstringWithTwoOccurrences_3090.csproj", "{348EAB1E-80A8-4835-A31F-39CCB65A1B6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWordsString_557", "ReverseWordsString_557\ReverseWordsString_557.csproj", "{9D0733E3-4161-438B-9998-EA0216028188}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{A05ECE33-83C1-4ED9-99AF-22D3983C1235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{21B0D6BC-BA07-422D-A41E-B28677DD74E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -221,6 +227,14 @@ Global
 		{348EAB1E-80A8-4835-A31F-39CCB65A1B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{348EAB1E-80A8-4835-A31F-39CCB65A1B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{348EAB1E-80A8-4835-A31F-39CCB65A1B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0733E3-4161-438B-9998-EA0216028188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0733E3-4161-438B-9998-EA0216028188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0733E3-4161-438B-9998-EA0216028188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0733E3-4161-438B-9998-EA0216028188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B0D6BC-BA07-422D-A41E-B28677DD74E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B0D6BC-BA07-422D-A41E-B28677DD74E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B0D6BC-BA07-422D-A41E-B28677DD74E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B0D6BC-BA07-422D-A41E-B28677DD74E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -231,5 +245,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AA5E2834-DF20-4548-980D-97D951070B13} = {54C14443-B782-437E-9FEE-D799B987763B}
 		{508D429C-9621-4E76-A2A1-51D71FA0FE27} = {54C14443-B782-437E-9FEE-D799B987763B}
+		{21B0D6BC-BA07-422D-A41E-B28677DD74E4} = {A05ECE33-83C1-4ED9-99AF-22D3983C1235}
 	EndGlobalSection
 EndGlobal
