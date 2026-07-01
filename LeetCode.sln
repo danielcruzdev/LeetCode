@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExponentialSearch", "Expone
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsDuplicate_219", "ContainsDuplicate_219\ContainsDuplicate_219.csproj", "{98A800C8-2B3D-45B6-AA70-31867F10D6FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseOnlyLetters_917", "ReverseOnlyLetters_917\ReverseOnlyLetters_917.csproj", "{F63AB4FA-8BEA-4B1D-85F6-8CA42336DEB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -247,6 +249,10 @@ Global
 		{98A800C8-2B3D-45B6-AA70-31867F10D6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98A800C8-2B3D-45B6-AA70-31867F10D6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98A800C8-2B3D-45B6-AA70-31867F10D6FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F63AB4FA-8BEA-4B1D-85F6-8CA42336DEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63AB4FA-8BEA-4B1D-85F6-8CA42336DEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63AB4FA-8BEA-4B1D-85F6-8CA42336DEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63AB4FA-8BEA-4B1D-85F6-8CA42336DEB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
